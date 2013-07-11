@@ -1,0 +1,59 @@
+* {
+    font-family: arial;
+    margin:0;
+    padding:0;
+}
+
+h1 {
+    padding: 12px 0;
+    height: 60px;
+}
+
+button {
+    font-size: 9pt;
+    padding: 4px;
+}
+
+ul {
+    margin: 24px 0 0 0;
+    list-style-type: none;
+}
+
+ul li { 
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #3399FF;
+}
+
+.row {
+    width: 960px;
+    margin: auto;
+}
+
+.span {
+    padding: 6px;
+}
+
+.span2 {
+    width: 148px;
+    height: 400px;
+    float: left;    
+}
+
+.span10 {
+    width: 788px;
+    height: 400px;
+    float: left;
+}
+
+#content a {
+    color: #0065AD;
+}
+
+#content {
+    line-height: 1.6em;
+}
+
