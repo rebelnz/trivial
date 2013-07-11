@@ -41,5 +41,5 @@ func main() {
 	http.HandleFunc("/wdata",wDataHandler)
 	http.HandleFunc("/wdetail",wDetailHandler)
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
-	http.ListenAndServe(":8080",nil)
+	http.ListenAndServe(":9000",nil)
 }
